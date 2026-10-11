@@ -76,10 +76,6 @@ void determineWinner(int& p, int& cpu, int& p_score, int& cpu_scores, int& round
             std::cout << "Round " << round << std::endl;
             std::cout << "\n";     
         }
-        
-    
-    
-    
 }
 
 int main() {
