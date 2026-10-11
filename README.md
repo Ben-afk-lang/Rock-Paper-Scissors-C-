@@ -1,2 +1,2 @@
-# Rock-Paper-Scissors-C-
+# Rock-Paper-Scissors-C++
 This is my practice game to learn C++ 
