@@ -2,6 +2,10 @@
 #include <cstdlib> 
 #include <ctime>
 
+void getComputerChoice() {
+    
+}
+
 void determineWinner(int& p, int& cpu, int& p_score, int& cpu_scores, int& round) {
     
     int rock = 1;
@@ -70,12 +74,16 @@ void determineWinner(int& p, int& cpu, int& p_score, int& cpu_scores, int& round
                 std::cout << "CPU Won! \n";
             }
         } 
-
-    round--;
+        round--;
+        if (round == 1 != round > 0) {
+            std::cout << "\n";
+            std::cout << "Round " << round << std::endl;
+            std::cout << "\n";     
+        }
         
-        std::cout << "\n";
-        std::cout << "Round " << round << std::endl;
-        std::cout << "\n";
+    
+    
+    
 }
 
 int main() {
