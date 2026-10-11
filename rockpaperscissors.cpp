@@ -2,10 +2,6 @@
 #include <cstdlib> 
 #include <ctime>
 
-void getComputerChoice() {
-    
-}
-
 void determineWinner(int& p, int& cpu, int& p_score, int& cpu_scores, int& round) {
     
     int rock = 1;
