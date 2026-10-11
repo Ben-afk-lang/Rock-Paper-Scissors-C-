@@ -5,6 +5,8 @@ This is my C++ practice game; I'm still learning and will keep uploading until I
 
 In Rock, Paper, Scissors, it is common practice for a beginner; since you are just starting to learn the fundamentals of C++, this is a great exercise.
 
+its really addictive when you solve the problem like you want some more like this
+
 This is the C++ compiler I use:
 
 https://www.programiz.com/cpp-programming/online-compiler/
