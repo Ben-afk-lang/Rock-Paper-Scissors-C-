@@ -58,7 +58,7 @@ void determineWinner(int& p, int& cpu, int& p_score, int& cpu_scores, int& round
         std::cout << "Player Pick : Scissors" << " | " << "CPU Score: Scissors" << "\n";
     }
 
-   if (round == 1) {
+   if (round == 0) {
             if (p_score > cpu_scores) {
                 std::cout << "\n";
                 std::cout << "Player Won! \n";
@@ -71,7 +71,7 @@ void determineWinner(int& p, int& cpu, int& p_score, int& cpu_scores, int& round
             }
         } 
         round--;
-        if (round == 1 != round > 0) {
+        if (round == 0 != round > 0) {
             std::cout << "\n";
             std::cout << "Round " << round << std::endl;
             std::cout << "\n";     
